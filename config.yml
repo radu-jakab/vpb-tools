@@ -1,0 +1,26 @@
+inputFileName: Piste Timisoara v1.4.kml
+outputFileNameKML: piste.kml
+outputFileNameJSON: piste_detalii.json
+outputFileNameJSONDataTable: piste_datatable.json
+
+styles:
+  - {name: '5-stele', color: '6448aa04', width: '3'}
+  - {name: '4-stele', color: '643cca98', width: '3'}
+  - {name: '3-stele', color: '641eebf5', width: '3'}
+  - {name: '2-stele', color: '641f87f6', width: '3'}
+  - {name: '1-stea', color: '642422ed', width: '3'}
+  - {name: 'neevaluat', color: '64A0A0A0', width: '3'}
+
+evaluationFileName: evaluare.xlsx
+evaluationItemIndexes: ['i4', 'j4', 'k4', 'l4', 'm4', 'n4', 'p4', 'q4', 's4', 't4', 'u4', 'v4']
+evaluationCategories: {i3: 'i4-n4', p3: 'p4-q4', s3: 's4-v4'}
+
+folders:
+  - {name: 'Calitate foarte buna', style: '5-stele', minimumScore: 80, maximumScore: 100 }
+  - {name: 'Calitate buna', style: '4-stele', minimumScore: 60, maximumScore: 80 }
+  - {name: 'Calitate medie', style: '3-stele', minimumScore: 40, maximumScore: 60 }
+  - {name: 'Calitate slaba', style: '2-stele', minimumScore: 20, maximumScore: 40 }
+  - {name: 'Calitate precara', style: '1-stea', minimumScore: 1, maximumScore: 20 }
+  - {name: 'Urmeaza a fi evaluate', style: 'neevaluat', minimumScore: 0, maximumScore: 1 }
+
+host: https://pedaleaza.ro/vrempiste/
