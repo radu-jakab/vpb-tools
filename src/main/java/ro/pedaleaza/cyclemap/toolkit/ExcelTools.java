@@ -69,7 +69,7 @@ public class ExcelTools {
             path.setVia(getCell(numberRowNr, 'e').getStringCellValue());
             path.setDirection((i % 2 == 0) ? "dus" : "intors");
 
-            String youtubeId = getCell(i, 29).getStringCellValue();
+            String youtubeId = getCell(i, 35).getStringCellValue();
             if (!youtubeId.trim().isEmpty())
                 path.setMovieLink("https://www.youtube.com/embed/" + youtubeId);
             else
