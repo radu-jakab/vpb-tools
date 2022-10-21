@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9fcf86f-5e80-4937-93f6-95f93423174f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyclemap.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/piste_2019.kml" beforeDir="false" afterPath="$PROJECT_DIR$/output/piste_2019.kml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/pedaleaza/cyclemap/data/StyleDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/pedaleaza/cyclemap/data/StyleDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/pedaleaza/cyclemap/toolkit/ExcelTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/pedaleaza/cyclemap/toolkit/ExcelTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/pedaleaza/cyclemap/toolkit/KmlTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/pedaleaza/cyclemap/toolkit/KmlTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/data/ConfigDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/data/ConfigDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/data/CyclePathDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/data/CyclePathDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/data/FolderDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/data/FolderDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/data/JSONDataTableExport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/data/JSONDataTableExport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/data/StyleDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/data/StyleDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/main/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/main/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/toolkit/ExcelTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/toolkit/ExcelTools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/toolkit/KmlTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ro/pedaleaza/cyclemap/toolkit/KmlTools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cyclelanes-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/cyclelanes-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cyclelanes-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/cyclelanes-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-    </list>
+test    <list default="true" id="f9fcf86f-5e80-4937-93f6-95f93423174f" name="Default" comment="dependencies update; JDK upgrade from 1.8 to 17" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,8 +181,16 @@
       <workItem from="1574186468838" duration="1805000" />
       <workItem from="1580574796772" duration="4648000" />
       <workItem from="1666374150289" duration="1922000" />
-      <workItem from="1666376085650" duration="535000" />
+      <workItem from="1666376085650" duration="919000" />
     </task>
+    <task id="LOCAL-00001" summary="dependencies update; JDK upgrade from 1.8 to 17">
+      <created>1666376745530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666376745530</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +209,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="dependencies update; JDK upgrade from 1.8 to 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="dependencies update; JDK upgrade from 1.8 to 17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
