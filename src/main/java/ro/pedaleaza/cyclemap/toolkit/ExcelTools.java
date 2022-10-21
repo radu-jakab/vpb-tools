@@ -6,8 +6,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import ro.pedaleaza.cyclemap.data.CyclePathDO;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -17,7 +17,7 @@ public class ExcelTools {
     private XSSFSheet sheet;
 
     public ExcelTools(File workbookFile) throws IOException {
-        XSSFWorkbook workbook = new XSSFWorkbook(new FileInputStream(workbookFile));
+        XSSFWorkbook workbook = new XSSFWorkbook(Files.newInputStream(workbookFile.toPath()));
         sheet = workbook.getSheet("Lista si Evaluare");
         if (sheet == null)
             sheet = workbook.getSheetAt(0);
@@ -119,7 +119,7 @@ public class ExcelTools {
     private List<String> splitSegments(String segmentString) {
         List<String> result = new ArrayList<>();
 
-        String splitByComma[] = segmentString.split(",");
+        String[] splitByComma = segmentString.split(",");
         for (String s : splitByComma) {
             if (s.contains("-")) {
                 int min = Integer.parseInt(s.split("-")[0]);

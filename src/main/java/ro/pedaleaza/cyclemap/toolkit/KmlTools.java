@@ -133,12 +133,10 @@ public class KmlTools {
     private String buildPlacemarkDescription(CyclePathDO path, Map<String, Double> criteriaMap, String host) {
         String result = "Punctaj total: " + path.getEvaluationTotal() + "<br><br>";
 
-        result += String.join(
-                "<br>",
-                path.getEvaluationByCategories().keySet()
-                        .stream()
-                        .map(key -> "" + key + ": " + path.getEvaluationByCategories().get(key) + " / " + criteriaMap.get(key))
-                        .collect(Collectors.toList()));
+        result += path.getEvaluationByCategories().keySet()
+                .stream()
+                .map(key -> "" + key + ": " + path.getEvaluationByCategories().get(key) + " / " + criteriaMap.get(key))
+                .collect(Collectors.joining("<br>"));
 
         result += "<br>" + host + "detalii-pista/?laneId=" + path.getNumber() + "-" + path.getDirection();
 
